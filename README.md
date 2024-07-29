@@ -9,6 +9,7 @@ Ulkoisia lähteitä:
 - [Kryptologia --- Tiedon turvaamisen tiede, Kaisa Nyberg](http://www.cse.tkk.fi/fi/tkt-lehti/a26/nyberg.pdf)
 - [IT-sanato](https://github.com/TimoSalomaki/IT-sanasto/tree/master)
 - [TY Kyberturvallisuus I kpl 19. Sovellettu kryptografia](https://plus.tuni.fi/comp.sec.100/fall-2021/m18_applied_crypto/algorithms/?hl=fi)
+- [Väsytyshyökkäys murtamismenetelmänä, Leevi Hokkanen](https://trepo.tuni.fi/bitstream/handle/10024/146090/HokkanenLeevi.pdf)
 
 _____________________________
 Erityiset merkinnät
@@ -37,11 +38,13 @@ Erityiset merkinnät
 
 | ENG                            | FIN                                       | Selitys |
 | ------------------------------ | ----------------------------------------- | ------- |
+| (Salted) Collision resistance  | (Suolattu) törmäyskestävyys               |         |
 | CBC-mode                       | CBC-tila, salainlohkojen ketjutus -tila ⚠ |         |
 | Chosen-ciphertext attack (CCA) | Valitun salakielen hyökkäys               |         |
 | Chosen-plaintext attack (CPA)  | Valitun selkokielen hyökkäys              |         |
 | Cipher                         | Salain                                    |         |
 | Ciphertext                     | Salakieli                                 |         |
+| Collision                      | Törmäys                                   |         |
 | Confidentiality                | Luottamuksellisuus                        |         |
 | CTR-mode                       | CTR-tila, laskuritila                     |         |
 
@@ -53,6 +56,7 @@ Erityiset merkinnät
 | Decryption               | Salauksen purku       |         |
 | Distribution             | Jakauma               |         |
 | Double ratchet algorithm | Kaksoiräikkäalgoritmi |         |
+| Dictionary attack        | sanakirjahyökkäys     |         |
 
 ## E
 
@@ -86,6 +90,7 @@ Erityiset merkinnät
 | --------------------------------------------- | --------------------------------------- | ------- |
 | Hash function                                 | Tiivistefunktio                         |         |
 | Hash-based Message Authentication Code (HMAC) | Tiivistepohjainen viestin todennuskoodi |         |
+| Hash chain                                    | Tiivisteketju                           |         |
 
 ## I
 
@@ -167,21 +172,25 @@ Erityiset merkinnät
 
 ## R
 
-| ENG                           | FIN                       | Selitys |
-| ----------------------------- | ------------------------- | ------- |
-| Random Number Generator (RNG) | Satunnaislukugeneraattoir |         |
-| Randomness                    | Satunnaisuus              |         |
-| Real game                     | Oikea peli                |         |
+| ENG                           | FIN                         | Selitys |
+| ----------------------------- | --------------------------- | ------- |
+| Random Number Generator (RNG) | Satunnaislukugeneraattoir   |         |
+| Randomness                    | Satunnaisuus                |         |
+| Real game                     | Oikea peli                  |         |
+| Rainbow table attack          | Sateenkaaritaulukkohyökkäys |         |
 
 ## S
 
-| ENG                | FIN                   | Selitys |
-| ------------------ | --------------------- | ------- |
-| Search game        | Löytöpeli             |         |
-| Security Game      | Turvallisuuspeli      |         |
-| Security Parameter | Turvallisuusparametri |         |
-| State              | Tila                  |         |
-| Stream Cipher      | Jonosalain            |         |
+| ENG                 | FIN                    | Selitys |
+| ------------------- | ---------------------- | ------- |
+| Search game         | Löytöpeli              |         |
+| Security Definition | Turvallisuusmääritelmä |         |
+| Security Game       | Turvallisuuspeli       |         |
+| Security Parameter  | Turvallisuusparametri  |         |
+| Sponge Construction | Sieni konstruktio      |         |
+| State               | Tila                   |         |
+| Stream Cipher       | Jonosalain             |         |
+
 
 
 ## T
@@ -193,9 +202,10 @@ Erityiset merkinnät
 
 ## U
 
-| ENG | FIN | Selitys |
-| --- | --- | ------- |
-|     |     |         |
+| ENG                                                  | FIN                                             | Selitys |
+| ---------------------------------------------------- | ----------------------------------------------- | ------- |
+| Unforgeability                                       | Väärentämättömyys                               |         |
+| Unforgeability under Chosen Message Attack (UNF-CMA) | Väärentämättömyys valitun viestin hyökkäyksessä |         |
 
 ## V
 
